@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Acerca de</title>
+</head>
+<body class="container">
+    <header>
+        <div class="row">
+            <img src="img/logo.png" class="col-md-2 col-xs-3" />
+            <img src='img/nytimes.png' class="col-md-2 col-md-offset-6 col-xs-4" id='nytimesLogo'>
+        </div>
+
+    </header>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="index.html">Mi pagina principal</a>
+            </li>
+            <li>
+                <a href="Search.html">Busqueda</a>
+            </li>
+            <li>
+                <a href="inputTexto.html">Analisis personalizado</a>
+            </li>
+            <li class="active">
+                <a href="#">Acerca de</a>
+            </li>
+        </ul>
+    </nav>
+    <div class='clear'></div>
+    <div class="row separacion">
+        <main class="col-md-8">
+            <h2>Las noticias en el tiempo</h2>
+            <p>
+                El proyecto ha sido realizado con el objetivo de analizar el "positividad" y "negatividad"
+                de las noticias a lo largo del tiempo.
+                Para mas informacion puede rellenar el formulario de contacto.
+            </p>
+            <p>
+                Las palabras positivas y negativas no indican necesariamente opinion positiva o negativa
+                sobre un tema. 
+            </p>
+            <p>
+                  Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews."
+                      Proceedings of the ACM SIGKDD International Conference on Knowledge
+                      Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle,
+                      Washington, USA,
+            </p>
+            <p>
+                  Bing Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing
+                      and Comparing Opinions on the Web." Proceedings of the 14th
+                      International World Wide Web conference (WWW-2005), May 10-14,
+                      2005, Chiba, Japan.
+            </p>   
+        </main>
+        <aside class="col-md-4">
+            <form>
+                <div class="form-group">
+                    <label>Nombre: </label>
+                    <input type="text" class="form-control" name="name" />
+                </div>
+                <div class="form-group">
+                    <label>E-mail: </label>
+                    <input type="email" class="form-control" name="email" />
+                </div>
+                <div class="form-group">
+                    <label>Asunto: </label>
+                    <input type="text" class="form-control" name="asunto" />
+                </div>
+                <div class="form-group">
+                    <label>Mensaje: </label>
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <input type="button" id="mail" class="btn btn-primary" value="Send message" />
+            </form>
+        </aside>
+
+    </div>
+    
+    
+    <footer>
+        <p class="footerCenter">&copy; Copyright 2019-2020.</p>
+        <p class="footerCenter">All Rights Reserved. Powered By The New York Times </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="javascript/sendMail.js"></script>
+
+
+</body>
+</html>

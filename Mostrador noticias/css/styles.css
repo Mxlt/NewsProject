@@ -1,0 +1,89 @@
+.cube{
+  border:2px solid black;
+  margin: 5px auto;
+  padding: 2em;
+  border-radius: 5px;
+}
+
+.analize, .eliminate{
+    margin-left: 2em;
+}
+
+.analysisResult{
+    text-align: center;
+    font-size: 20px;
+}
+
+.aviso{
+    border-radius: 5px;
+    background-color: #03DAC6;
+    color: #000000;
+    margin: 3em;
+    padding: 1em;
+}
+
+.warning{
+    border-radius: 5px;
+    background-color: #B00020;
+    margin: 3em;
+    color: aliceblue;
+    padding: 1em;
+}
+
+.separacion{
+    margin: 2em;
+}
+
+.headline{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+/*#output{
+    margin-bottom: 20px;
+}*/
+
+body {
+    background-color: #ffffff;
+}
+
+#nytimesLogo {
+    float: right;
+    margin-top: 7%;
+}
+
+@media only screen and (max-width: 600px) {
+    #nytimesLogo {
+        margin-top: 3%;
+    }
+}
+
+.clear{
+  clear:both;
+}
+
+#userInput{
+    margin: 1em;
+}
+
+
+header h1{
+    color: #000000;
+}
+
+.formSpace{
+    margin-top: 20px;
+}
+
+.footerCenter{
+    text-align:center;
+
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+}
+
+#input{
+    height: 25em;
+}
